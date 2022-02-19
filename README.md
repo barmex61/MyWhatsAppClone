@@ -1,6 +1,7 @@
 # MyWhatsAppClone
  I'm tryna make similiar app like whatsapp
-I continue to work on it. Firebase database, navigation component is used. It is a messaging application similar to Whatsapp. Group chat and dual chat are available in its current version. I am working on notifications and voip. I plan to add a camera function later. MVVM architecture and liveData is adhered to.
+I continue to work on it. Firebase database, navigation component is used. It is a messaging application similar to Whatsapp. Group chat and dual chat are available in its current version. I am working on notifications and voip. I plan to add a camera function later. MVVM architecture and liveData is adhered to.I will change the way of updating the data. For the interface where the users are located, I will get the data after a certain time from the room database with rxjava, than the firebase, the data within a certain time
+
 Some images from the app ...
 
 ![sss](https://user-images.githubusercontent.com/9730563/154779300-e70ebf54-f3b4-497c-8e68-4f42a806afaf.jpg)
