@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853974036506",
+    "project_id": "chatapplicationjava-a8caf",
+    "storage_bucket": "chatapplicationjava-a8caf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853974036506:android:d3baf46b16aee1bf79e1a3",
+        "android_client_info": {
+          "package_name": "com.fatih.chatapplicationjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853974036506-1ei1c6scp3dso4o9ubsk1eoru57a4gov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlT8Z10S_NMOUaxjHqyw2sGCIl2zjTzbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853974036506-1ei1c6scp3dso4o9ubsk1eoru57a4gov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

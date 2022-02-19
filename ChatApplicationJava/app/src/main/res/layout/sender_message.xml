@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+         android:layout_margin="5sp"
+        android:background="@drawable/sender_text"
+        android:maxWidth="300dp"
+        android:maxHeight="600dp"
+        android:minHeight="45dp"
+        android:minWidth="60dp">
+
+        <TextView
+            android:id="@+id/sender_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Message Here"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingRight="25dp"
+            android:layout_marginEnd="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="5sp"
+            app:layout_constraintTop_toTopOf="@+id/constrainLayout"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/timeText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21:04"
+            android:textSize="13sp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/sender_message"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="@+id/sender_message" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
